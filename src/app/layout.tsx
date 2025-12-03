@@ -39,7 +39,7 @@ export default async function RootLayout({children}: {
     console.log(`layout default user: ${defaultUser?.id} with ${defaultUser?.signInProvider} provider`);
 
     return <>
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
         <head>
             <meta content="width=device-width, initial-scale=1" name="viewport"/>
             <link rel="icon" href="/favicon.ico"/>
